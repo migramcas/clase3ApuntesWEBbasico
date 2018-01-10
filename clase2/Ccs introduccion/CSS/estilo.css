@@ -1,0 +1,99 @@
+/*SELECTOR DE ETIQUETA*/
+
+body{
+	background: black;
+	margin: 0px;
+	padding: 0px;
+	height: 100;
+
+
+}
+
+
+h1{
+
+	color:white;
+	font-size: xx-large;
+	text-align: center;
+	background: blue;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+li{
+	display: inline;
+	/*Display sirve para listar en una sola linea, como un menu*/
+	padding: 50px;
+
+}
+
+
+
+/*		SELECTORES DE CLASE: ;*/
+
+/*las clases siempre inician con . */
+
+.menu-nav{
+
+	text-align: center;
+}
+
+.footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 200px;
+	width: 100%;
+
+}
+
+.menu-footer{
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	color:red;
+	background: gray;
+
+
+}
+
+
+
+/*		SELECTORES DESCENDENTES */
+.menu-nav a{
+	/*Significa que a cada etiqueta 'a' que pertenezca a la clase menu-nav, herede las siguientes propiedades*/
+	text-align:  center;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: blue;
+
+}
+
+
+
+/*ID*/
+/*  aqui se utiliza el #*/
+
+#color{
+	color: green;
+}
+
+
+
+
+
+
+/*SELECTOR  DE PSEUDOCLASE*/
+a:visited{
+	/*sirve para cambiar el color de visitado del link*/
+	color: red;
+}
+
+
+
+
+
+
+/**/
