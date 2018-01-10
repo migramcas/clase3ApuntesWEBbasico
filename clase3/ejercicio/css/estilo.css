@@ -1,0 +1,13 @@
+/*Selector de clase*/
+
+.cuadro{
+	height: 100px;
+	width: 100px;
+	background: #C72828;
+}
+
+
+.adentro{
+	background: blue;
+	color:green;
+}

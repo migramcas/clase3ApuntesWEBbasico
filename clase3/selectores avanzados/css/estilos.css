@@ -1,0 +1,80 @@
+/*nota: de preferencia poner los comentarios fuera de las llaves*/
+
+
+
+		/* SELECTOR DE HIJOS*/
+p>span{
+	color:#6BEF42;
+	font-size: 16opx;
+
+}
+
+
+div>h2{
+	text-align: right;
+
+
+}
+
+
+
+
+		/*SELECTOR DE ADYACENCIA*/
+
+h4{
+	color: blue;
+}
+
+
+/*Es un margen interno*/
+h3+h4{
+	margin-left: 50px;
+
+}
+
+p+p{
+	margin-left: 100px;
+}
+
+
+
+
+		/*SELECTOR DE ATRIBUTOS*/
+.nada{
+
+}
+
+.otraClase{
+
+}
+
+
+
+a[href]{
+	color:green;
+
+}
+
+
+a[class="nada"]{
+	color: orange;
+}
+
+/*Para este caso significa que por lo menos tiene el atributo class con 'otraClase' */
+a[class~="otraClase"]{
+	margin-left: 200px;
+}
+
+
+*[lang=en]{
+	margin: 100px;
+	color:purple;
+	text-align: center;
+}
+
+
+*[lang|=es]{
+	margin:100px;
+	color: gray;
+	text-align: right;	
+}

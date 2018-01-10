@@ -1,0 +1,37 @@
+
+/*Con display: inline-block; sirve para obligar que sean elementos de linea*/
+/*float sirve para posicionar de izq a derecha, o que inicie en la drecha a i*/
+div{
+	/*display: inline-block;*/
+	width: 200px;
+	background: white;
+	float: left;
+
+/* absolute: a partir de su contenedor padre, se va a posicionar;
+	relative: a aprtir de donde la insertamos  vamos a manipular su posición;
+	static: posicionamiento por defecto que traen las etiquetas
+	fixed: poner un elemento en una posición de donde no se moverá  ni siquiera  al bajar el mouse*/
+
+	position: 
+}
+ 
+
+/*solid, dashed,  dotted: opciones de border*/
+.border{
+	background: #1A3280;
+	border: 10px dotted #000000;
+	position: fixed;
+	top=50px;
+	left:50px;
+}
+
+/*padding puede tener 1,2-ancho largo-,3 -arriba,laterales, abajo- o 4 argumentos*/
+.padding{
+	padding:10px 30px  50px;
+	background: #DF2C2C;
+}
+
+.margin{
+	background-color: #41DD11;
+	padding-right: 30px;
+}
