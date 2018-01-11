@@ -1,0 +1,95 @@
+/*con * seleccionamos todos los elementos de HTML*/
+
+*{
+	font-family:  fantasy;
+}
+
+body{
+	margin: 0px;
+}
+
+.titulo-principales{
+	background: #247FCD;
+	text-align: center;
+	padding: 2%;
+	border-width: 4px;
+	border-style: dotted;
+
+}
+
+.titulo-principales h1{
+	color: white;
+}
+.titulo-principales h5{
+
+	font-style: italic;
+	color:#FAD4D4;
+}
+
+.menu-navegacion{
+	text-align: center;
+}
+
+.menu-navegacion li{
+	display:inline;
+}
+
+.menu-navegacion a{
+	margin:2%;
+	background-color:  #247FCD;
+	color:white;
+	padding:2%;
+	display:inline-block;
+	text-align: center;
+	width: 140px;
+	border-bottom-width: 3px;
+	border-top-width: : 0px;
+	border-right-width:  0px;
+	border-left-width: 0px;
+	border-style:solid;
+	border-color: black;
+}
+
+.menu-navegacion li:hover a{
+	background: red;
+	/*Cambia el color cuando se pasa el mouse*/
+}
+
+
+li.activo a{
+	background: red;
+}
+
+
+.informacion_personal{
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background: #247FCD;
+	color: white;
+	padding:5%;
+}
+
+.footer li{
+	display: inline;
+	margin:5%;
+	text-align:center;
+}
+
+
+.footer a{
+	background-color: #F0F782;
+	text-decoration: none;
+	padding: 3%;
+	color:black;
+}
+
+.biografia{
+	text-align: center;
+	padding:2%;
+}
